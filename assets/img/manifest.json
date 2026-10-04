@@ -1,0 +1,70 @@
+{
+  "project": "Harbour & Pine Kitchen",
+  "phase": "Phase 1 — homepage only",
+  "description": "Image manifest for the existing approved homepage. Each entry documents one homepage image slot: its slot name, page section, expected purpose, and local image path. The homepage connects to this manifest through matching data-image-slot attributes on its existing <img> elements. No slot changes any visual design; paths and imagery are unchanged.",
+  "images": [
+    {
+      "slot": "hero",
+      "section": "Hero",
+      "purpose": "Full-bleed cinematic hero photograph; the dominant first-viewport dining-room image.",
+      "path": "assets/img/hero.jpg",
+      "alt": "Candlelit dining room at Harbour & Pine Kitchen with set tables and glowing pendant lights."
+    },
+    {
+      "slot": "story-main",
+      "section": "Our Story",
+      "purpose": "Main editorial portrait for the story section, framed in the arched image treatment.",
+      "path": "assets/img/story-main.jpg",
+      "alt": "A chef finishing a plated dish in the Harbour & Pine kitchen."
+    },
+    {
+      "slot": "story-secondary",
+      "section": "Our Story",
+      "purpose": "Smaller overlapping secondary photograph layered over the main story image.",
+      "path": "assets/img/story-secondary.jpg",
+      "alt": "Seasonal ingredients arranged on a kitchen counter."
+    },
+    {
+      "slot": "dish-scallops",
+      "section": "Signature Dishes — card 1",
+      "purpose": "Signature dish card photograph for Seared Scallops.",
+      "path": "assets/img/dish-scallops.jpg",
+      "alt": "Seared scallops plated with garnish."
+    },
+    {
+      "slot": "dish-lamb",
+      "section": "Signature Dishes — card 2",
+      "purpose": "Signature dish card photograph for Herb-Crusted Lamb.",
+      "path": "assets/img/dish-lamb.jpg",
+      "alt": "Herb-crusted lamb plated with seasonal vegetables."
+    },
+    {
+      "slot": "dish-pasta",
+      "section": "Signature Dishes — card 3",
+      "purpose": "Signature dish card photograph for Truffle Pasta.",
+      "path": "assets/img/dish-pasta.jpg",
+      "alt": "Fresh truffle pasta served in a bowl."
+    },
+    {
+      "slot": "dining",
+      "section": "Private Dining",
+      "purpose": "Full-bleed atmospheric background photograph behind the private-dining glass panel.",
+      "path": "assets/img/dining.jpg",
+      "alt": ""
+    },
+    {
+      "slot": "cta",
+      "section": "Reservation CTA / Visit",
+      "purpose": "Full-bleed cinematic waterfront-terrace background behind the reservation call-to-action panel.",
+      "path": "assets/img/cta.jpg",
+      "alt": ""
+    },
+    {
+      "slot": "og",
+      "section": "SEO / Social (head metadata)",
+      "purpose": "Open Graph, Twitter Card, and structured-data share image. Referenced from head meta tags, not an <img> slot.",
+      "path": "assets/img/og.jpg",
+      "alt": "The sunlit dining terrace at Harbour & Pine Kitchen overlooking the water."
+    }
+  ]
+}

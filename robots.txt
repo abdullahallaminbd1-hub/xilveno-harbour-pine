@@ -1,0 +1,6 @@
+# Harbour & Pine Kitchen - local development build (phase 1: homepage only)
+User-agent: *
+Allow: /
+Disallow: /placeholder.html
+
+Sitemap: https://restaurant.xilveno.shop/sitemap.xml

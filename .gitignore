@@ -1,0 +1,8 @@
+.qa/
+.server.err
+.server.log
+.wrangler/
+node_modules/
+.env
+.env.*
+!.env.example

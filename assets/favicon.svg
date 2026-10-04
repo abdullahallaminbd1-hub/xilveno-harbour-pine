@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Harbour and Pine Kitchen">
+  <rect width="64" height="64" rx="14" fill="#132219"/>
+  <path d="M32 10.5 40.4 25H36l8.1 13.6h-5.2L47 52.6H17l8.1-14H20L28.1 25H23.6Z" fill="#c8a768"/>
+  <rect x="30.1" y="52.4" width="3.8" height="6.4" rx="1.6" fill="#a8894f"/>
+</svg>

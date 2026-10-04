@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coming Soon — Harbour &amp; Pine Kitchen</title>
+  <meta name="description" content="This part of the Harbour &amp; Pine Kitchen concept build arrives in a later phase.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="placeholder-page">
+  <main class="placeholder">
+    <a class="brand placeholder__brand" href="index.html" aria-label="Harbour &amp; Pine Kitchen — back to homepage">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 6 25.4 15h-3l5.1 8.6h-3.3l5 8.4H10.8l5-8.4H12.5L17.6 15h-3Z"/>
+          <path d="M20 32v3.4"/>
+        </svg>
+      </span>
+      <span class="brand__text">
+        <span class="brand__name">Harbour &amp; Pine</span>
+        <span class="brand__sub">Kitchen</span>
+      </span>
+    </a>
+
+    <p class="eyebrow">Later phase</p>
+    <h1 class="placeholder__title" id="placeholder-title">This page is coming soon</h1>
+    <p class="lede" id="placeholder-text">Phase one of this concept build delivers the homepage only. The rest of the site is planned for a later phase.</p>
+
+    <div class="placeholder__actions">
+      <a class="btn btn--gold" href="index.html">Back to the homepage <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      var labels = {
+        menu: 'Menu', about: 'About', events: 'Events', gallery: 'Gallery',
+        contact: 'Contact', reserve: 'Reservations', story: 'Our Story',
+        privacy: 'Privacy Policy', terms: 'Terms of Service', social: 'Social'
+      };
+      var key = new URLSearchParams(window.location.search).get('page');
+      if (key && labels[key]) {
+        document.title = labels[key] + ' — Coming Soon | Harbour & Pine Kitchen';
+        document.getElementById('placeholder-title').textContent = labels[key] + ' is coming soon';
+      }
+    })();
+  </script>
+</body>
+</html>
