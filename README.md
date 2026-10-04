@@ -15,19 +15,22 @@ Static restaurant website served by Cloudflare Workers Static Assets.
 
 ```powershell
 npm ci
+npm run build
 npm run deploy -- --dry-run
 ```
 
 To preview locally without deploying:
 
 ```powershell
+npm run build
 npx wrangler dev
 ```
 
 ## Production deployment
 
 The `main` branch is connected to Cloudflare Workers Builds. No framework build
-step is needed; the deploy command is `npm run deploy`.
+is needed. The build command stages only the site pages and assets; the deploy
+command is `npm run deploy`.
 
-The Worker serves the files in this repository root as static assets. It uses
-no database, storage bucket, admin panel, or runtime API.
+The Worker serves the staged site as static assets. It uses no database,
+storage bucket, admin panel, or runtime API.

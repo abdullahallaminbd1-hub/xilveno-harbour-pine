@@ -2,6 +2,7 @@
   "name": "xilveno-harbour-pine",
   "private": true,
   "scripts": {
+    "build": "node scripts/build-static.mjs",
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
